@@ -1,0 +1,9 @@
+treatment,run,composition
+homogeneous,1,Claude+Claude+Claude+Claude
+homogeneous,2,GPT+GPT+GPT+GPT
+homogeneous,3,Grok+Grok+Grok+Grok
+homogeneous,4,Gemini+Gemini+Gemini+Gemini
+mixed,1,Claude+Grok+Claude+Grok
+mixed,2,Gemini+GPT+GPT+GPT
+mixed,3,Gemini+Gemini+Claude+Grok
+mixed,4,Gemini+Grok+GPT+Claude
