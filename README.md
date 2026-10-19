@@ -1,12 +1,14 @@
 # LLM public goods game
 
-First test of Study 1 (see memo below): groups of 4 LLM players (Claude, GPT, Grok, Gemini) play a 5-period linear
-public goods game, in two treatments. See `public_goods_llm.ipynb`.
+First test of Study 1 (see memo below): groups of 4 LLM players play a 5-period linear public goods game, in two
+treatments. The participant identities are 12 models: for each of four providers (Anthropic, OpenAI, xAI, Google) the
+oldest, an intermediate and the most recent chat model reachable through the API, listed with their API dates in
+`MODELS` in `public_goods_llm.ipynb`.
 
 | Treatment | Groups | Runs |
 |---|---|---|
-| `homogeneous` | 4 instances of the same model | 1 per model = 4 |
-| `mixed` | composition of the 4 models drawn at random (balanced, seeded) | 4 |
+| `homogeneous` | 4 instances of the same model | 1 per model = 12 |
+| `mixed` | composition drawn at random from the 12 models (seeded, as balanced as possible) | `RUNS_PER_TREATMENT` |
 
 Players are not told who the other players are unless `DISCLOSE_COMPOSITION = True`. Each player instance is a
 stateless API call that sees its own history and the group totals only.
