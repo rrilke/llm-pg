@@ -1,9 +1,25 @@
 treatment,run,composition
-homogeneous,1,Claude+Claude+Claude+Claude
-homogeneous,2,GPT+GPT+GPT+GPT
-homogeneous,3,Grok+Grok+Grok+Grok
-homogeneous,4,Gemini+Gemini+Gemini+Gemini
-mixed,1,Claude+Grok+Claude+Grok
-mixed,2,Gemini+GPT+GPT+GPT
-mixed,3,Gemini+Gemini+Claude+Grok
-mixed,4,Gemini+Grok+GPT+Claude
+homogeneous,1,Claude Sonnet 4.5+Claude Sonnet 4.5+Claude Sonnet 4.5+Claude Sonnet 4.5
+homogeneous,2,Claude Sonnet 4.6+Claude Sonnet 4.6+Claude Sonnet 4.6+Claude Sonnet 4.6
+homogeneous,3,Claude Sonnet 5.5+Claude Sonnet 5.5+Claude Sonnet 5.5+Claude Sonnet 5.5
+homogeneous,4,GPT-3.5 Turbo+GPT-3.5 Turbo+GPT-3.5 Turbo+GPT-3.5 Turbo
+homogeneous,5,GPT-4o+GPT-4o+GPT-4o+GPT-4o
+homogeneous,6,GPT-6.1+GPT-6.1+GPT-6.1+GPT-6.1
+homogeneous,7,Grok 4.20+Grok 4.20+Grok 4.20+Grok 4.20
+homogeneous,8,Grok 4.5+Grok 4.5+Grok 4.5+Grok 4.5
+homogeneous,9,Grok 4.7+Grok 4.7+Grok 4.7+Grok 4.7
+homogeneous,10,Gemini 2.5 Flash+Gemini 2.5 Flash+Gemini 2.5 Flash+Gemini 2.5 Flash
+homogeneous,11,Gemini 3.5 Flash+Gemini 3.5 Flash+Gemini 3.5 Flash+Gemini 3.5 Flash
+homogeneous,12,Gemini 4+Gemini 4+Gemini 4+Gemini 4
+mixed,1,Grok 4.20+GPT-6.1+Gemini 4+Grok 4.20
+mixed,2,Grok 4.5+GPT-3.5 Turbo+Claude Sonnet 4.6+Grok 4.20
+mixed,3,Claude Sonnet 4.6+Claude Sonnet 4.5+Gemini 4+GPT-4o
+mixed,4,GPT-6.1+Grok 4.5+GPT-4o+GPT-4o
+mixed,5,Claude Sonnet 5.5+Claude Sonnet 5.5+GPT-3.5 Turbo+Gemini 3.5 Flash
+mixed,6,Claude Sonnet 5.5+Gemini 4+GPT-6.1+Grok 4.7
+mixed,7,Gemini 3.5 Flash+Grok 4.7+Gemini 2.5 Flash+Claude Sonnet 5.5
+mixed,8,Claude Sonnet 4.5+Claude Sonnet 4.5+GPT-4o+Claude Sonnet 4.5
+mixed,9,GPT-3.5 Turbo+Grok 4.5+Grok 4.5+Gemini 3.5 Flash
+mixed,10,Gemini 2.5 Flash+Grok 4.20+Grok 4.7+Gemini 2.5 Flash
+mixed,11,Gemini 2.5 Flash+GPT-3.5 Turbo+Claude Sonnet 4.6+Gemini 3.5 Flash
+mixed,12,Gemini 4+Grok 4.7+GPT-6.1+Claude Sonnet 4.6
